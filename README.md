@@ -12,7 +12,7 @@ Este projeto é um sistema de gerenciamento de estacionamento desenvolvido com S
 
 ### 1. Subir os containers com Docker Compose
 
-Para iniciar os serviços de banco de dados MySQL e phpMyAdmin, execute o seguinte comando na raiz do projeto:
+Para iniciar os serviços de banco de dados MySQL e phpMyAdmin, execute o seguinte comando na /localdev do projeto:
 
 ```bash
 docker-compose up -d
