@@ -1,0 +1,120 @@
+### Arquivos gerados ###
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.pid
+*.seed
+*.pid.lock
+
+### Diretórios de build ###
+target/
+build/
+out/
+bin/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Maven ###
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/
+dependency-reduced-pom.xml
+
+### IDE ###
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+.factorypath
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# STS
+.apt_generated
+.springBeans
+.sts4-cache
+
+### Docker ###
+# Ignore tudo na pasta localdev exceto arquivos de configuração
+localdev/*
+!localdev/*.config
+!localdev/*.properties
+
+### Banco de dados ###
+*.db
+*.sqlite
+*.h2.db
+
+### Sistema operacional ###
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+### Documentação ###
+HELP.md
+CHANGELOG.md
+
+### Arquivos específicos do projeto ###
+# Arquivos de configuração local
+*.properties
+*.yml
+!application*.properties
+!application*.yml
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+### Outros ###
+# Arquivos do Flyway
+/flyway-*
+/flyway/
+
+# Arquivos do Lombok
+lombok.config
+
+# Arquivos do Docker Compose
+docker-compose.override.yml
